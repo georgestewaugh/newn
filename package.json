@@ -1,23 +1,20 @@
 {
-  "name": "new-nodejs",
+  "name": "express-js",
   "version": "1.0.0",
-  "main": "albin.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "start-server": "node albin.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/georgestewaugh/New-nodejs.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/georgestewaugh/New-nodejs/issues"
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pug": "^3.0.3"
   },
-  "homepage": "https://github.com/georgestewaugh/New-nodejs#readme",
-  "description": "Nnode js Basic Package",
   "devDependencies": {
     "nodemon": "^3.1.9"
   }
